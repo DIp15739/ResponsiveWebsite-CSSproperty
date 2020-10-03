@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 5px;
+  background: #4d7383;
+}
+.header {
+  padding: 12px;
+  text-align: center;
+  background: #fffaf6;
+  font-weight: bold;
+}
+.card {
+  background-color: #ffe7aa;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+img {
+  width: clamp(15vw, 800%, 100%);
+}
+h1 {
+  font-size: clamp(20px, 5vw, 35px);
+}
+p {
+  font-size: clamp(10px, 4vw, 20px);
+}
